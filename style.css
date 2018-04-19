@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(bknd.jpg);
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+}
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+   
+}
+
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.main-nav button{
+    margin-top: 30px;
+    margin-left: 300px;
+    font-family:  sans-serif;
+    font-weight: bold;
+}
+
+.main_menu :active{
+    background-color: darkorange;
+
+}
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li.active a{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover{
+    border: 1px solid darkorange;
+}
+
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.logo{
+    position: absolute;
+    width:750px;
+    
+  
+    
+
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 275px;
+    font-size: 30px;
+}
+
+.button{
+    margin-top: 30px;
+    margin-left: 300px;
+    font-family:  sans-serif;
+    font-weight: bold;
+}
+
+.btn{
+   padding: 10px 30px;
+   color: #fff;
+   text-decoration: none;
+   font-size: 15px;
+   margin-right: 10px;
+   border-radius: 5px;
+   border: 2px solid #fff; 
+   
+   
+}
+
+.button_one :active{
+    background-color: darkorange; 
+}
+
+.btn:hover {
+    background-color: darkorange; 
+}
+
+.log_in{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+    
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(97, 95, 97, 0.459);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form input{
+    font-family: "Rooboto", sans-serif;
+    outline: none;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;  
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 10px;
+
+}.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(10, 10, 10);
+    width: 100%;
+    border: 0;
+    padding: 15px;  
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.form button:hover, .form button:active{
+    background-color: darkslategrey;
+}
+.form .message{
+    color: fuchsia;
+}
+.form a{
+    color: lawngreen;
+    text-decoration: none;
+    font-weight: bold;
+}

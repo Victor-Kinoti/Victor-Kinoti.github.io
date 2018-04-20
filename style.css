@@ -88,7 +88,9 @@ h2{
    
    
 }
-
+.button_2{
+    margin-left: 20px;
+}
 .button_one :active{
     background-color: darkorange; 
 }

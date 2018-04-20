@@ -8,9 +8,10 @@
             <div class="row">
                 <ul class="main-nav">
 
-                    <li class= "main_menu active"><a href="">MENU OF THE DAY</Button>
                     
-                    <li><a href = "#">MENU</a></li>
+                    
+                    <li><a href = "#" onclick="redirector3">MENU</a></li>
+                    <li><a href = "index.html">HOME</a></li>
                     <li><a href = "#">ABOUT</a></li>
                     <li><a href = "#">BLOG</a></li>
                     <li><a href = "#">CONTACT US</a></li>
@@ -21,8 +22,10 @@
                 <h2>WHERE TASTE MEETS THE MYTH</h2>
 
             <div class="button">
+                <a href="#" class="btn button_2">MENU OF THE DAY</a><br><br><br>
                 <a href="#" class="btn button_one active" onclick="redirector()">Login</a>
                 <a href="#" class="btn button_two" onclick="redirector2()">Sign Up</a>
+                
             </div>
             </div>
         </header>
@@ -32,6 +35,9 @@
                 window.location="login.html"
             }
             function redirector2(){
+                window.location="signup.html"
+            }
+            function redirector3(){
                 window.location="signup.html"
             }
         

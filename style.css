@@ -179,7 +179,7 @@ header{
 
 
 .the_team{
-    overflow: hidden;
+   
     text-align: center;
     padding: 6px;
 }
@@ -189,6 +189,10 @@ header{
     margin-bottom: 60px;
     color: #fff;
     font-size: 30px;
+    position: fixed;
+    top: 15px;
+    left: 570px;
+    
 }
 
 .border_line{

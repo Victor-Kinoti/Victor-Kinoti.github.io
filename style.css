@@ -59,6 +59,9 @@ header{
     position: absolute;
     width:auto;
     height: 80px;
+    position: fixed;
+    top: 500px;
+    left: 440px;
 
 }
     
@@ -87,21 +90,36 @@ header{
    text-decoration: none;
    font-size: 15px;
    margin-right: 10px;
-   border-radius: 5px;
-   border: 2px solid #fff; 
+   
+   border: 1px solid #fff; 
    
    
 }
 .button_2{
-    margin-left: 20px;
-    margin-bottom: 20px
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: -5px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+   
+    box-shadow: opx 0px 5px 0px #665533
 }
+.button_one{
+    border-radius: 5px;
+}
+
+.button_two{
+    border-radius: 5px;
+}
+
 .button_one :active{
     background-color: darkorange; 
 }
 
 .btn:hover {
-    background-color: darkorange; 
+    background-color: darkorange;
+     
 }
 
 .log_in{
@@ -157,4 +175,68 @@ header{
     color: lawngreen;
     text-decoration: none;
     font-weight: bold;
+}
+
+
+.the_team{
+    overflow: hidden;
+    text-align: center;
+    padding: 6px;
+}
+
+.the_team h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.border_line{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.img_sec{
+    margin-bottom: 40px;
+
+}
+.img_sec a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 200px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.img_sec a img{
+    transition: none;
+    width: 100%;
+    filter: grayscale(100%);
+}
+.img_sec a:hover > img{
+    filter: none;
+}
+
+.section{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+.section:target{
+    height: auto;
+}
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
 }

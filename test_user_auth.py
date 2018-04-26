@@ -21,11 +21,12 @@ class AppApiTestCase(unittest.TestCase):
 
     def test_signup(self):
         response = self.app.post('/auth/v1/signup', data = json.dumps(self.data) , content_type = 'application/json')
-        response = self.app.post('/auth/v1/signup',data={"username":"keynote","password":"longpassword", "email":"vic@gmail.com"})
-        self.assertEqual(response.status_code, 200)
+        result = json.loads(response.data.decode('utf-8'))
+        self.assertEqual(result["username"], "vic")
+        self.assertEqual(result["email"], "vic@gmail.com")
+        self.assertEqual(result["password"], "longpassword")
+        self.assertEqual(response.status_code, 201)
 
-    def tearDown(self):
-        pass
 
     
 
